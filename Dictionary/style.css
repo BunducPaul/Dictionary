@@ -1,0 +1,72 @@
+.page {
+  position: fixed;
+}
+.right {
+  background-color: #6883bc;
+  right: 0%;
+  height: 100%;
+  width: 50%;
+}
+.left {
+  background-color: #79a7d3;
+  left: 0%;
+  height: 100%;
+  width: 50%;
+}
+.pozition {
+  position: absolute;
+  color: #fff;
+  top: 20%;
+  left: 3%;
+  text-align: center;
+  font-family: "Righteous", cursive;
+  font-size: 20px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+.response {
+  position: relative;
+  top: 25px;
+  color: #1d3c45;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 7px;
+  box-sizing: border-box;
+  color: #0f1111;
+  font-family: Georgia, serif;
+  line-height: 30px;
+  position: relative;
+  text-align: center;
+  width: 100px;
+}
+.button:hover {
+  background-color: #f1f1f1;
+}
+.button:active {
+  transform: translate(0.5px, 0.5px);
+}
+
+.text {
+  background-color: #fff;
+
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #0f1111;
+  font-family: Georgia, serif;
+  line-height: 28px;
+  position: relative;
+  text-align: center;
+  width: 230px;
+  border: none;
+}
+.text:focus:focus:focus,
+.text:focus:hover {
+  outline: none;
+  background-color: #f1f1f1;
+  color: #000000;
+  border: none;
+}
